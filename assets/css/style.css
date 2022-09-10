@@ -1,0 +1,163 @@
+/*Elementos dentro do Body ---------------------------------*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F5;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Style div_logotipo*/
+
+#div_logotipo{
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+#logotipoNome{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 3px;
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Style nav_filtroCategorias */
+
+#nav_filtroCategorias{
+    display: flex;
+    justify-content: space-evenly;
+}
+#menu{
+    display: flex;
+}
+
+#menu button{
+    display: block;
+}
+
+#btn_mobile{
+    display: none;
+}
+.botoes_categorias{
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    color: #828282;
+    font-size: 17px;
+    font-weight: 400;
+}
+.botoes_categorias:hover{
+    color: #333333;
+    cursor: pointer;
+}
+.botoes_categorias:focus{
+    color: #333333;
+    font-size: 17px;
+}
+
+/*Style Main----------------*/
+
+.boxCard{
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    border: 1px solid #d4d4d4;
+}
+
+.headerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    height: 180px;
+    background-color: #d4d4d4;
+}
+.imgCard{
+    width: 280px;
+    height: 180px;
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 200px;
+}
+.secaoCard{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: rgb(2, 2, 109);
+    width: 95px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.infoCard{
+    overflow-y: scroll;
+    height: 45px;
+}
+.infoCard::-webkit-scrollbar{
+    background-color: #ffffff83;
+    width: 7px;
+    height: 10px;
+}
+.infoCard::-webkit-scrollbar-thumb{
+    background-color: #cccaca;
+    border-radius: 20px;
+}
+
+.tituloCard{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap
+}
+
+.footerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: start;
+    height: 70px;
+    padding: 10px;
+}
+.precoCard{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 94);
+}
+.bts_addCarrinho{
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #333333;
+    border: none;
+    cursor: pointer;
+}
+.bts_addCarrinho:hover{
+    text-decoration: underline;
+}
